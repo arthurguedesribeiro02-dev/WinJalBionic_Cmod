@@ -73,3 +73,25 @@ You can find updated components (known as `wcps`) to improve compatibility and p
 
 
 
+
+
+## WinJalLator JAL Biônico — variantes deste fork
+
+Este repositório público é um fork modificado do Winlator-Ludashi, mantido por **ArthurJALdev**. O projeto preserva a licença MIT e os créditos das bases upstream. A identidade visual deste fork usa o nome **WinJalLator JAL Biônico**, paleta rosa/cromada e banner personalizado.
+
+### Variantes planejadas
+
+| Variante | Objetivo |
+|---|---|
+| **WinJalLator 1.0 Ludashi** | Base Ludashi com a identidade visual WinJalLator JAL Biônico e otimizações de interface rosadas. |
+| **WinJalLator 1.0 Vanilla** | Perfil Vanilla com a mesma base funcional, identidade própria e sem arquivos de jogos de terceiros. |
+
+Os APKs devem ser gerados pela workflow de build do Android. Não são armazenados neste repositório arquivos de jogos, APKs de terceiros ou áudio protegido.
+
+### Banner e música
+
+O banner visual deste fork é um asset personalizado separado em `app/src/main/assets/winjallator_jal_banner.png`. A faixa **“Erome”** é mencionada somente como referência musical/atribuição, com link para [Spotify](https://open.spotify.com/track/4QnB9no55m97WRMpHtumnj). A música não é incorporada, copiada ou redistribuída neste projeto; os direitos permanecem com seus respectivos titulares.
+
+### Licença e atribuição
+
+Este fork permanece sob a **MIT License** original. Alterações de branding, tema e assets são de **ArthurJALdev**. O código upstream e seus componentes continuam pertencendo aos autores listados na seção de créditos.

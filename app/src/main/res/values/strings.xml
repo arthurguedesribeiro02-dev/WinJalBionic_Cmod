@@ -4,7 +4,7 @@
     <!ENTITY TERMUX_X11_APP_NAME "Winlator:X11">
     ]>
 <resources>
-    <string name="app_name">Winlator</string>
+    <string name="app_name">WinJalLator 1.0 Ludashi</string>
     <string name="run">Run</string>
     <string name="edit">Edit</string>
     <string name="remove">Remove</string>
@@ -682,4 +682,3 @@ E.g. <b>META</b> for <i>META key</i>, \n
 
     <string name="magnifier_not_available">Magnifier is not available in DisplayX mode</string>
 </resources>
-

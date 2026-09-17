@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="window_background_color">#000000</color>
-    <color name="colorPrimary">#E7E8EC</color>
-    <color name="colorPrimaryDark">#17181D</color>
-    <color name="colorAccent">#E7E8EC</color>
+    <color name="colorPrimary">#F2A7D4</color>
+    <color name="colorPrimaryDark">#3A102C</color>
+    <color name="colorAccent">#FF4FA3</color>
     <color name="black">#000000</color>
 
     <color name="window_background_color_dark">#000000</color>
     <color name="colorPrimaryDarkMode">#000000</color>
     <color name="colorPrimaryDarkModeDark">#000000</color>
-    <color name="colorAccentDark">#E7E8EC</color>
+    <color name="colorAccentDark">#FF8CC6</color>
     <color name="white">#ffffff</color>
 
     <color name="combo_box_dark">#070707</color>
@@ -136,7 +136,7 @@
     <color name="ui_surface">#E814151B</color>
     <color name="ui_surface_alt">#D91D1F26</color>
     <color name="ui_stroke">#343740</color>
-    <color name="ui_accent">#E7E8EC</color>
+    <color name="ui_accent">#FF4FA3</color>
     <color name="ui_text_primary">#F4F4F6</color>
     <color name="ui_text_muted">#9699A3</color>
     <color name="ui_success">#D5D7DC</color>
