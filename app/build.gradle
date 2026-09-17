@@ -120,6 +120,20 @@ android {
         }
     }
 
+    flavorDimensions += 'edition'
+    productFlavors {
+        ludashi {
+            dimension 'edition'
+            applicationIdSuffix '.ludashi'
+            manifestPlaceholders = [appLabel: 'WinJalLator 1.0 Ludashi']
+        }
+        vanilla {
+            dimension 'edition'
+            applicationIdSuffix '.vanilla'
+            manifestPlaceholders = [appLabel: 'WinJalLator 1.0 Vanilla']
+        }
+    }
+
     // Java versions: Winlator uses Java 17, Termux-X11 used 1.9
     // Using 17 is typically fine (covers 1.9 features).
     compileOptions {
