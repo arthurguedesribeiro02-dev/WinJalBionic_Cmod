@@ -19,7 +19,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout com submodules
         uses: actions/checkout@v4
@@ -34,13 +34,13 @@ jobs:
           java-version: '17'
           cache: gradle
 
-      - name: Configurar Android SDK/NDK
+      - name: Configurar Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Instalar SDK e NDK
-        uses: android-actions/sdkmanager@v3
-        with:
-          packages: 'platforms;android-35 build-tools;35.0.0 ndk;27.2.12479018 cmake;3.22.1'
+      - name: Instalar SDK, NDK e CMake
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0" "ndk;27.2.12479018" "cmake;3.22.1"
 
       - name: Permitir Gradle Wrapper
         run: chmod +x ./gradlew
