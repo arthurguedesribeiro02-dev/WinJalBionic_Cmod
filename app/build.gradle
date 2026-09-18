@@ -105,7 +105,7 @@ android {
         targetSdkVersion 28
 
         versionCode 20
-        versionName "4.1"
+        versionName "13.0.1"
 
         // External native build from Winlator
         externalNativeBuild {
@@ -125,12 +125,12 @@ android {
         ludashi {
             dimension 'edition'
             applicationIdSuffix '.ludashi'
-            manifestPlaceholders = [appLabel: 'WinJalLator 1.0 Ludashi']
+            manifestPlaceholders = [appLabel: 'WinJalCMOD_13.0.1']
         }
         vanilla {
             dimension 'edition'
             applicationIdSuffix '.vanilla'
-            manifestPlaceholders = [appLabel: 'WinJalLator 1.0 Vanilla']
+            manifestPlaceholders = [appLabel: 'WinJalCMOD_13.0.1']
         }
     }
 

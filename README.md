@@ -75,16 +75,16 @@ You can find updated components (known as `wcps`) to improve compatibility and p
 
 
 
-## WinJalLator JAL Biônico — variantes deste fork
+## WinJalCMOD_13.0.1 — identidade WinJalLator
 
-Este repositório público é um fork modificado do Winlator-Ludashi, mantido por **ArthurJALdev**. O projeto preserva a licença MIT e os créditos das bases upstream. A identidade visual deste fork usa o nome **WinJalLator JAL Biônico**, paleta rosa/cromada e banner personalizado.
+Este repositório público é um fork modificado do Winlator-Ludashi, mantido por **ArthurJALdev**. O projeto preserva a licença MIT e os créditos das bases upstream. O nome exibido desta build é **WinJalCMOD_13.0.1**. A identidade visual original do WinJalLator — rosa, brilhante e prateada — foi preservada.
 
 ### Variantes planejadas
 
 | Variante | Objetivo |
 |---|---|
-| **WinJalLator 1.0 Ludashi** | Base Ludashi com a identidade visual WinJalLator JAL Biônico e otimizações de interface rosadas. |
-| **WinJalLator 1.0 Vanilla** | Perfil Vanilla com a mesma base funcional, identidade própria e sem arquivos de jogos de terceiros. |
+| **WinJalCMOD_13.0.1 Ludashi** | Base Ludashi com a identidade visual rosa/prateada do WinJalLator. |
+| **WinJalCMOD_13.0.1 Vanilla** | Perfil Vanilla com a mesma identidade visual e sem arquivos de jogos de terceiros. |
 
 Os APKs devem ser gerados pela workflow de build do Android. Não são armazenados neste repositório arquivos de jogos, APKs de terceiros ou áudio protegido.
 
