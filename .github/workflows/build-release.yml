@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       release_tag:
-        description: 'Tag da release, por exemplo v0.1.0'
+        description: 'Tag da release, por exemplo WinJalCMOD_13.0.1'
         required: true
-        default: 'v0.1.0'
+        default: 'WinJalCMOD_13.0.1'
       prerelease:
         description: 'Marcar como pre-release'
         required: true
@@ -37,6 +37,12 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: gradle
+
+      - name: Instalar ferramentas de shaders
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq glslang-tools
+          glslangValidator --version
 
       - name: Validar Android SDK do runner
         run: |
@@ -71,7 +77,13 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ inputs.release_tag }}
-          name: WinJalBionic Cmod ${{ inputs.release_tag }}
+          name: WinJalCMOD_13.0.1 — ${{ inputs.release_tag }}
+          body: |
+            ## WinJalCMOD_13.0.1
+
+            Build do fork Cmod com a identidade visual WinJalLator rosa, brilhante e prateada.
+
+            Variantes compiladas: Ludashi e Vanilla. Consulte `SHA256SUMS.txt` para verificar os APKs.
           generate_release_notes: true
           prerelease: ${{ inputs.prerelease }}
           files: release-assets/*

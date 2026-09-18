@@ -29,6 +29,10 @@ This build mimics the package name of Genshin Impact. This is specifically desig
 1.  Download and install the latest APK from this repository's [Releases section](https://github.com/StevenMXZ/Winlator-Ludashi/releases) (choose your preferred build: `dev-vanilla`, `ludashi`, or `redmagic`).
 2.  Launch the app and wait for the installation process to finish.
 
+# Versions and downloads
+
+See the public [Releases](https://github.com/arthurguedesribeiro02-dev/WinJalBionic_Cmod/releases) page for builds of **WinJalCMOD_13.0.1**, including the Ludashi and Vanilla variants and their `SHA256SUMS.txt` checksums. The pink, bright and silver WinJalLator identity is preserved.
+
 # Useful Tips
 
   - Here is a tutorial from ZeroKimchi channel on how to use Winlator Bionic:
